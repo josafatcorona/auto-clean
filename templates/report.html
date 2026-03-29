@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>auto-clean Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 960px; margin: 40px auto; color: #222; }
+    h1 { color: #1E3A5F; }
+    h2 { color: #2E75B6; border-bottom: 2px solid #D6E4F0; padding-bottom: 6px; }
+    .summary { display: flex; gap: 16px; flex-wrap: wrap; margin: 24px 0; }
+    .card { background: #D6E4F0; border-radius: 8px; padding: 16px 24px; min-width: 140px; }
+    .card .number { font-size: 2em; font-weight: bold; color: #1E3A5F; }
+    .card .label { font-size: 0.85em; color: #555; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    th { background: #1E3A5F; color: white; padding: 10px; text-align: left; }
+    td { padding: 8px 10px; border-bottom: 1px solid #eee; }
+    tr:nth-child(even) { background: #F5F5F5; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
+    .red { background: #FDDEDE; color: #900; }
+    .green { background: #D4EDDA; color: #1A6B3C; }
+  </style>
+</head>
+<body>
+  <h1>🧹 auto-clean Report</h1>
+  <p>Columns: <strong>{{ profile.total_columns }}</strong> · 
+     Generated: <strong>{{ generated_at }}</strong></p>
+
+  <h2>Summary</h2>
+  <div class="summary">
+    <div class="card">
+      <div class="number">{{ profile.total_rows }}</div>
+      <div class="label">Original rows</div>
+    </div>
+    <div class="card">
+      <div class="number">{{ result.rows_after }}</div>
+      <div class="label">Clean rows</div>
+    </div>
+    <div class="card">
+      <div class="number">{{ result.duplicates_removed }}</div>
+      <div class="label">Duplicates removed</div>
+    </div>
+    <div class="card">
+      <div class="number">{{ result.nulls_filled }}</div>
+      <div class="label">Nulls filled</div>
+    </div>
+    <div class="card">
+      <div class="number">{{ result.outliers_removed }}</div>
+      <div class="label">Outliers removed</div>
+    </div>
+  </div>
+
+  <h2>Column Analysis</h2>
+  <table>
+    <tr>
+      <th>Column</th>
+      <th>Type</th>
+      <th>Nulls</th>
+      <th>Null %</th>
+      <th>Unique</th>
+      <th>Sample values</th>
+    </tr>
+    {% for col in profile.columns %}
+    <tr>
+      <td><strong>{{ col.name }}</strong></td>
+      <td>{{ col.dtype }}</td>
+      <td>
+        <span class="badge {{ 'red' if col.null_count > 0 else 'green' }}">
+          {{ col.null_count }}
+        </span>
+      </td>
+      <td>{{ col.null_pct }}%</td>
+      <td>{{ col.unique_count }}</td>
+      <td>{{ col.sample_values | join(", ") }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  {% if result.columns_renamed %}
+  <h2>Renamed Columns</h2>
+  <table>
+    <tr><th>Original</th><th>New name</th></tr>
+    {% for old, new in result.columns_renamed.items() %}
+    <tr><td>{{ old }}</td><td>{{ new }}</td></tr>
+    {% endfor %}
+  </table>
+  {% endif %}
+
+</body>
+</html>

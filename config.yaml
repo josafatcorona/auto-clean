@@ -1,0 +1,17 @@
+input:
+  file_path: "data/sample.csv"
+  encoding: "utf-8"
+  separator: ","
+
+cleaning:
+  remove_duplicates: true
+  fill_nulls: true
+  fill_strategy: "mean"        # options: mean, median, mode, drop
+  remove_outliers: true
+  outlier_method: "iqr"        # options: iqr, zscore
+  fix_column_names: true
+
+output:
+  folder: "output"
+  save_cleaned_csv: true
+  generate_report: true

@@ -1,0 +1,211 @@
+Customer Name,Age,Annual Salary,City,Score
+Alice,43.0,91886.0,Monterrey,74
+Bob,30.0,105745.0,Mexico City,52
+Carol,27.0,113251.0,Guadalajara,57
+Dave,55.0,83413.0,,26
+Alice,57.0,,Monterrey,41
+Bob,59.0,72318.0,Monterrey,35
+Carol,,100173.0,Mexico City,63
+Dave,54.0,100390.0,,25
+Alice,44.0,82329.0,,90
+Bob,54.0,73088.0,Guadalajara,75
+Carol,,69811.0,,38
+Dave,48.0,85479.0,,2
+Alice,37.0,115392.0,Mexico City,7
+Bob,37.0,117369.0,,82
+Carol,21.0,49963.0,Monterrey,91
+Dave,54.0,85123.0,Mexico City,34
+Alice,35.0,,Mexico City,91
+Bob,55.0,44388.0,Guadalajara,17
+Carol,52.0,35569.0,,43
+Dave,23.0,99836.0,Guadalajara,59
+Alice,52.0,66586.0,Monterrey,51
+Bob,33.0,42015.0,Mexico City,54
+Carol,40.0,75002.0,Mexico City,24
+Dave,39.0,36254.0,Mexico City,25
+Alice,27.0,47144.0,Monterrey,71
+Bob,26.0,54214.0,Monterrey,52
+Carol,22.0,110719.0,Guadalajara,70
+Dave,36.0,101774.0,Guadalajara,88
+Alice,52.0,36090.0,Guadalajara,33
+Bob,,41637.0,,49
+Carol,41.0,52415.0,Mexico City,29
+Dave,41.0,54071.0,Mexico City,63
+Alice,,88243.0,Guadalajara,22
+Bob,57.0,71240.0,Mexico City,26
+Carol,57.0,113807.0,Guadalajara,28
+Dave,27.0,63434.0,,85
+Alice,46.0,99724.0,,49
+Bob,,105697.0,Monterrey,71
+Carol,53.0,58732.0,,81
+Dave,40.0,41314.0,Guadalajara,84
+Alice,49.0,53954.0,,49
+Bob,52.0,87108.0,Monterrey,20
+Carol,,117044.0,Mexico City,86
+Dave,52.0,117505.0,Guadalajara,92
+Alice,24.0,66668.0,Mexico City,63
+Bob,38.0,53061.0,Monterrey,61
+Carol,23.0,109252.0,Monterrey,49
+Dave,54.0,69749.0,Monterrey,71
+Alice,36.0,46907.0,Mexico City,1
+Bob,47.0,48777.0,Mexico City,96
+Carol,49.0,81745.0,Mexico City,13
+Dave,48.0,111818.0,Mexico City,94
+Alice,25.0,53624.0,Monterrey,87
+Bob,54.0,53321.0,Monterrey,51
+Carol,56.0,40488.0,Guadalajara,56
+Dave,43.0,52574.0,Guadalajara,83
+Alice,,35240.0,Mexico City,62
+Bob,50.0,73221.0,,32
+Carol,,40478.0,,30
+Dave,52.0,85645.0,Monterrey,29
+Alice,40.0,49262.0,Monterrey,49
+Bob,51.0,82796.0,Monterrey,45
+Carol,42.0,34432.0,Guadalajara,93
+Dave,52.0,94291.0,Guadalajara,30
+Alice,22.0,109104.0,Monterrey,16
+Bob,37.0,89399.0,Monterrey,40
+Carol,44.0,109714.0,Monterrey,19
+Dave,50.0,80428.0,,18
+Alice,,117731.0,Guadalajara,1
+Bob,59.0,30302.0,,78
+Carol,43.0,112558.0,,47
+Dave,51.0,30055.0,Monterrey,66
+Alice,,38717.0,Monterrey,92
+Bob,42.0,58699.0,Mexico City,94
+Carol,21.0,103686.0,Mexico City,38
+Dave,46.0,97661.0,,51
+Alice,21.0,74247.0,Guadalajara,63
+Bob,,46748.0,Monterrey,4
+Carol,36.0,34621.0,Monterrey,1
+Dave,59.0,45034.0,,8
+Alice,52.0,35126.0,Mexico City,29
+Bob,28.0,35122.0,Guadalajara,55
+Carol,58.0,48030.0,Mexico City,3
+Dave,,112838.0,Mexico City,32
+Alice,45.0,114717.0,Mexico City,10
+Bob,54.0,85658.0,Mexico City,74
+Carol,44.0,68638.0,Monterrey,83
+Dave,43.0,97067.0,Monterrey,34
+Alice,32.0,118869.0,Mexico City,97
+Bob,26.0,64674.0,Guadalajara,87
+Carol,55.0,65854.0,,55
+Dave,39.0,76271.0,Guadalajara,92
+Alice,20.0,103688.0,Guadalajara,32
+Bob,27.0,68518.0,Guadalajara,50
+Carol,35.0,40267.0,Mexico City,7
+Dave,33.0,31062.0,Monterrey,93
+Alice,31.0,80448.0,Guadalajara,8
+Bob,42.0,36229.0,Mexico City,65
+Carol,,86793.0,Guadalajara,57
+Dave,47.0,77915.0,Guadalajara,67
+Alice,,34632.0,Mexico City,88
+Bob,21.0,33596.0,Monterrey,87
+Carol,51.0,36168.0,Monterrey,59
+Dave,42.0,37561.0,,72
+Alice,41.0,103794.0,Mexico City,54
+Bob,44.0,112152.0,,67
+Carol,41.0,,,51
+Dave,41.0,36371.0,,97
+Alice,25.0,56069.0,Monterrey,92
+Bob,,109905.0,Mexico City,8
+Carol,56.0,42910.0,,34
+Dave,52.0,103479.0,Mexico City,35
+Alice,27.0,107735.0,Mexico City,96
+Bob,24.0,111264.0,Monterrey,88
+Carol,58.0,53275.0,,78
+Dave,23.0,102274.0,,32
+Alice,25.0,111449.0,Mexico City,46
+Bob,51.0,90004.0,Guadalajara,16
+Carol,49.0,92981.0,Monterrey,68
+Dave,54.0,114659.0,Monterrey,37
+Alice,59.0,84553.0,Monterrey,54
+Bob,35.0,78447.0,Monterrey,85
+Carol,32.0,64529.0,,14
+Dave,49.0,105703.0,,95
+Alice,38.0,106090.0,Guadalajara,55
+Bob,36.0,47260.0,Monterrey,48
+Carol,38.0,33812.0,Monterrey,82
+Dave,47.0,58024.0,Mexico City,7
+Alice,,88656.0,,74
+Bob,56.0,57285.0,Monterrey,7
+Carol,45.0,31605.0,Guadalajara,33
+Dave,42.0,101158.0,Guadalajara,23
+Alice,28.0,102303.0,,85
+Bob,31.0,,Guadalajara,19
+Carol,20.0,107149.0,Guadalajara,19
+Dave,20.0,86138.0,,36
+Alice,53.0,106125.0,Monterrey,29
+Bob,51.0,43918.0,Monterrey,60
+Carol,44.0,115655.0,Guadalajara,82
+Dave,59.0,57446.0,Guadalajara,2
+Alice,20.0,43046.0,Monterrey,1
+Bob,35.0,54818.0,,47
+Carol,58.0,34324.0,Guadalajara,69
+Dave,24.0,106323.0,Mexico City,20
+Alice,41.0,39111.0,,11
+Bob,,68110.0,Guadalajara,2
+Carol,22.0,46389.0,Guadalajara,67
+Dave,31.0,71427.0,Mexico City,87
+Alice,,109579.0,Mexico City,12
+Bob,35.0,58746.0,Monterrey,20
+Carol,56.0,117886.0,,5
+Dave,41.0,30117.0,,37
+Alice,48.0,114471.0,Monterrey,38
+Bob,33.0,43234.0,,94
+Carol,47.0,83441.0,,9
+Dave,24.0,30846.0,,98
+Alice,49.0,40954.0,,53
+Bob,24.0,109239.0,,44
+Carol,31.0,,Mexico City,99
+Dave,35.0,118236.0,,86
+Alice,45.0,,Mexico City,24
+Bob,45.0,60105.0,,81
+Carol,40.0,72101.0,Monterrey,74
+Dave,58.0,94323.0,Guadalajara,30
+Alice,,88067.0,Mexico City,59
+Bob,52.0,79376.0,,87
+Carol,49.0,75587.0,Monterrey,96
+Dave,56.0,66976.0,Guadalajara,81
+Alice,,97584.0,Mexico City,81
+Bob,29.0,108477.0,Guadalajara,14
+Carol,24.0,72533.0,Monterrey,9
+Dave,,31828.0,Mexico City,40
+Alice,53.0,31917.0,Guadalajara,66
+Bob,50.0,50618.0,,25
+Carol,29.0,62254.0,Mexico City,73
+Dave,38.0,77362.0,Guadalajara,22
+Alice,51.0,50128.0,Monterrey,4
+Bob,20.0,,Monterrey,26
+Carol,24.0,95545.0,Mexico City,58
+Dave,23.0,,Guadalajara,29
+Alice,35.0,117958.0,Mexico City,98
+Bob,43.0,39865.0,Mexico City,87
+Carol,35.0,32219.0,Guadalajara,37
+Dave,21.0,69809.0,Guadalajara,75
+Alice,47.0,35287.0,,70
+Bob,51.0,64387.0,Guadalajara,18
+Carol,46.0,38512.0,Monterrey,85
+Dave,39.0,31342.0,Mexico City,42
+Alice,43.0,93076.0,Mexico City,41
+Bob,31.0,49216.0,Monterrey,38
+Carol,,109767.0,Guadalajara,34
+Dave,52.0,56614.0,Monterrey,17
+Alice,52.0,66258.0,Monterrey,37
+Bob,56.0,72078.0,,25
+Carol,31.0,113524.0,Monterrey,76
+Dave,22.0,42219.0,Mexico City,999
+Alice,20.0,30235.0,Monterrey,1500
+Bob,52.0,72929.0,Mexico City,-50
+Carol,59.0,97444.0,Mexico City,888
+Dave,29.0,38567.0,Mexico City,777
+Dave,59.0,57446.0,Guadalajara,2
+Dave,36.0,101774.0,Guadalajara,88
+Bob,47.0,48777.0,Mexico City,96
+Carol,46.0,38512.0,Monterrey,85
+Dave,42.0,101158.0,Guadalajara,23
+Bob,33.0,42015.0,Mexico City,54
+Bob,,105697.0,Monterrey,71
+Dave,49.0,105703.0,,95
+Dave,39.0,76271.0,Guadalajara,92
+Bob,59.0,72318.0,Monterrey,35
