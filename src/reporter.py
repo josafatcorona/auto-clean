@@ -3,7 +3,12 @@ from datetime import datetime
 import os
 
 
-def generate_report(profile, result, output_folder: str) -> str:
+def generate_report(
+    profile,
+    result,
+    output_folder: str,
+    report_name: str = "report.html"
+) -> str:
     env = Environment(loader=FileSystemLoader("templates"))
     template = env.get_template("report.html")
     html = template.render(
@@ -12,7 +17,7 @@ def generate_report(profile, result, output_folder: str) -> str:
         generated_at=datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     )
     os.makedirs(output_folder, exist_ok=True)
-    path = os.path.join(output_folder, "report.html")
+    path = os.path.join(output_folder, report_name)
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
     return path

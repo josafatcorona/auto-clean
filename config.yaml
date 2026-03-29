@@ -1,14 +1,14 @@
 input:
-  file_path: "data/sample.csv"
-  encoding: "utf-8"
-  separator: ","
+  file_path: "data/sample.csv"   # default fallback, overridden by --file flag
+  encoding: "utf-8"               # options: utf-8, cp1252, latin-1
+  separator: ","                  # only used for CSV/TXT
 
 cleaning:
   remove_duplicates: true
   fill_nulls: true
-  fill_strategy: "mean"        # options: mean, median, mode, drop
+  fill_strategy: "mean"           # options: mean, median, mode, drop
   remove_outliers: true
-  outlier_method: "iqr"        # options: iqr, zscore
+  outlier_method: "iqr"           # options: iqr, zscore
   fix_column_names: true
 
 output:
