@@ -2,6 +2,8 @@
 
 > Stop cleaning data by hand. auto-clean does it in seconds.
 
+![demo](docs/demo.gif)
+
 **auto-clean** is a command-line tool that cleans messy CSV, Excel, and TXT files automatically and generates a visual HTML report — no manual work required.
 
 Point it at a file, run one command, get clean data.
