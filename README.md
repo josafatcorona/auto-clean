@@ -58,7 +58,7 @@ auto-clean/
 Requires Python 3.10+ and [uv](https://github.com/astral-sh/uv).
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/auto-clean.git
+git clone https://github.com/josafatcorona/auto-clean.git
 cd auto-clean
 source setup.sh
 ```
